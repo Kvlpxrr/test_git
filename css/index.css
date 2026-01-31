@@ -6,3 +6,31 @@
           box-sizing: border-box;
   text-decoration: none;
 }
+
+body {
+  background-color: aquamarine;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: antiquewhite;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+header nav ul li a {
+  color: aquamarine;
+  font-size: 20px;
+}
